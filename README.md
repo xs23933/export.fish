@@ -3,6 +3,16 @@ Convert the standard export creation environment variable to set -gx var val
 
 Make standard export environment variables support fish
 
+#### how to Install export plugin
+
+> fisher install xs23933/export.fish
+
+#### how to Remove export plugin
+
+> fisher remove xs23933/export.fish
+
+#### source file
+
 > functions/export.fish
 
 ```shell
