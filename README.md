@@ -1,7 +1,8 @@
-### export plugin for Fish
-Convert the standard export creation environment variable to set -gx var val
+# export plugin for Fish
 
-Make standard export environment variables support fish
+Make fish shell support standard export environment variables
+
+Convert the standard export creation environment variable to set -gx var val
 
 #### how to Install export plugin
 
@@ -10,6 +11,12 @@ Make standard export environment variables support fish
 #### how to Remove export plugin
 
 > fisher remove xs23933/export.fish
+
+#### example
+
+```shell
+export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890
+```
 
 #### source file
 
