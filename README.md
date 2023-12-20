@@ -4,7 +4,9 @@ Convert the standard export creation environment variable to set -gx var val
 Make standard export environment variables support fish
 
 > functions/export.fish
-`
+
+```shell
+
 function export
 	for arg in $argv
 		set var (echo $arg | cut -f1 -d=)
@@ -12,4 +14,5 @@ function export
 		set -gx $var $val
 	end
 end
-`
+
+```
